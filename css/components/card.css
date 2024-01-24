@@ -3,7 +3,7 @@
     height: 349px;
     width: 100%;
     box-sizing: border-box;
-    background-image: url("/assets/card-background.png");
+    background-image: url("../../assets/card-background.png");
     background-repeat: no-repeat;
     background-position: 100% center;
     background-size: cover;
