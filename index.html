@@ -12,7 +12,7 @@
         <picture class="banner__present">
             <source height="54" media="(min-width: 1230px)" srcset="./assets/small-present.png">
             <source height="54" media="(min-width: 750px)" srcset="./assets/small-present-tablet.png">
-            <img height="54" src="./assets/small-present-mobile.png" alt="present">
+            <img height="54" src="./assets/small-present-mobile.png" alt="Black Friday present">
         </picture>
         <ul class="banner__list">
             <li class="banner__list-item">
@@ -20,7 +20,7 @@
             </li>
             <li class="banner__list-item">
                 <span class="color-mustard b-600">
-                10%OFF
+                    10% OFF
                 </span>
             </li>
             <li class="banner__list-item">
@@ -29,8 +29,8 @@
             </li>
         </ul>
         <div class="banner__description">
-            <span class="b-600">Black Friday, <span class="color-mustard">10%OFF</span></span>
-            <button class="icon-button">
+            <span class="b-600">Black Friday, <span class="color-mustard">10% OFF</span></span>
+            <button class="icon-button" aria-label="Expand description">
                 <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M0.837276 16.8105C1.13018 17.1034 1.60508 17.1034 1.89798 16.8105L9.16208 9.5463C9.29808 9.4104 9.37087 9.2352 9.38067 9.0573C9.40577 8.8378 9.33417 8.6094 9.16587 8.441L1.90198 1.17716C1.60918 0.884267 1.13428 0.884267 0.841376 1.17716C0.548476 1.47005 0.548476 1.94493 0.841376 2.23782L7.59538 8.9918L0.837276 15.7498C0.544476 16.0427 0.544476 16.5176 0.837276 16.8105Z"
@@ -38,21 +38,25 @@
                 </svg>
             </button>
         </div>
-        <button class="btn btn--white btn--size-small btn--br-rounded banner__btn">
+        <button class="btn btn--white btn--size-small btn--br-rounded banner__btn" aria-label="Shop now">
             <span class="text-gradient-black b-500">Shop now</span>
         </button>
-        <button class="icon-button icon-button--cross banner__btn banner_cross banner__desc-text" aria-hidden="true" title="Close" aria-label="Close">
+        <button class="icon-button icon-button--cross banner__btn banner_cross banner__desc-text" aria-hidden="true"
+                title="Close" aria-label="Close">
         </button>
     </div>
 </div>
 <div class="card" id="card">
-    <button class="icon-button icon-button--cross card__close" id="cardCloseButton" aria-hidden="true" title="Close" aria-label="Close"></button>
+    <button class="icon-button icon-button--cross card__close" id="cardCloseButton" aria-hidden="true" title="Close"
+            aria-label="Close"></button>
     <div class="card__body">
         <span class="card__header b-500">Black Friday</span>
-        <span class="card__discount text-gradient-gold b-500">10%OFF</span>
+        <span class="card__discount text-gradient-gold b-500">10% OFF</span>
         <span class="card__desc b-500">Use code <span class="color-mustard">10FRIDAY</span> at checkout</span>
-        <button class="btn btn--bg-gray btn--size-default btn--br-rounded-14 card__btn">Shop now <span
-                class="card__desc-text">through Monday</span></button>
+        <button class="btn btn--bg-gray btn--size-default btn--br-rounded-14 card__btn"
+                aria-label="Shop now through Monday">
+            Shop now <span class="card__desc-text">through Monday</span>
+        </button>
     </div>
 </div>
 <script src="script.js"></script>
