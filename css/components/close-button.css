@@ -1,0 +1,31 @@
+.icon-button {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-button--cross::before, .icon-button--cross::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: #5D5C5A;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform-origin: center;
+}
+
+.icon-button--cross::before {
+    transform: rotate(45deg);
+}
+
+.icon-button--cross::after {
+    transform: rotate(-45deg);
+}

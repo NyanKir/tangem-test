@@ -1,0 +1,35 @@
+.btn {
+    cursor: pointer;
+    padding: 10px 14px;
+    box-sizing: border-box;
+}
+
+.btn--white {
+    background-color: white;
+}
+
+.btn--bg-gray{
+    opacity: 0.9;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.btn--br-rounded {
+    border-radius: 100px;
+}
+
+.btn--br-rounded-16 {
+    border-radius: 16px;
+}
+
+.btn--br-rounded-14 {
+    border-radius: 14px;
+}
+
+.btn--size-small {
+    height: 38px;
+}
+
+.btn--size-default {
+    height: 42px;
+    padding: 12px 24px;
+}
